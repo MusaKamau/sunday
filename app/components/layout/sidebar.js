@@ -51,7 +51,7 @@ export const Sidebar = ({
             @media (min-width: 992px) {
                 aside.sidebar {
                     height: 100vh;
-                    background-color: #f5f5f5;
+                    background-color: #fff;
                     position: fixed;
                     width: 40%;
                     left: 0;
@@ -84,7 +84,7 @@ export const Sidebar = ({
 
             aside.sidebar .info {
                 padding: 5%;
-                background: rgba(50, 50, 50, 0.5);
+                background: rgb(81, 141, 30);
                 color: #fafafa;
                 height: 28rem;
                 width: 100%;
@@ -167,7 +167,7 @@ export const Sidebar = ({
                     <p>${subtitle}</p>
                     <p>${description}</p>
                 </div>
-                <div class="links ${showLinks ? 'show-links' : ''}">
+              <!--  <div class="links ${showLinks ? 'show-links' : ''}">
                     <a
                         class="button"
                         href="https://drive.google.com/drive/folders/0B0A_zASTMp9WU0NMYW9wXzVQWjg?resourcekey=0-k6M28TIgKjp_9hvDeT623Q&usp=sharing"
@@ -183,6 +183,7 @@ export const Sidebar = ({
                         Source on GitHub
                     </a>
                 </div>
+              -->
             </div>
         </aside>`
 }
