@@ -71,16 +71,13 @@ export const About = () => html`
                 class="image"
             />
             <div class="info">
-                <h1 class="info-title">React Drive CMS Demo</h1>
+                <h1 class="info-title">The Economic Weekly </h1>
                 <p>
-                    A demo site to showcase the use of Google Drive as a Content
-                    Management System. Write articles in Google Docs and publish
-                    them directly from there.
+                   Kenya’s growing public debt bill spells doom for the incoming government that will take over in August when the East African nation holds its General Elections. However, the new government will take over a nation plagued with both foreign and domestic debts.
+
                 </p>
-                <p>
-                    Google Drive is the backend, only a few static files are
-                    hosted on GitHub Pages, and the content is displayed with
-                    React JS.
+                <p>                   
+Central Bank of Kenya (CBK) quarterly economic report shows that Kenya’s gross public debt was Ksh8.2 trillion as at December 31, 2021 an increase from the Ksh7.2 trillion at the end of 2020. Foreign debt accounted for 50.9 percent of the total debt stock while domestic debt accounted for 49.1 percent. 
                 </p>
             </div>
         </div>
