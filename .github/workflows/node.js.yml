@@ -11,7 +11,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.x, 16.x, 18.x] # Adjust the versions based on your needs
+        node-version: [3.x, 4.x, 18.x] # Adjust the versions based on your needs
 
     steps:
     - name: Checkout code
