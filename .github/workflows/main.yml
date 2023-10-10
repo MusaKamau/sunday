@@ -1,0 +1,33 @@
+name: Node.js CI
+
+on:
+  push:
+    branches:
+      - dev/server.js
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [10.x, 12.x, 14.x, 16.x, 19.x]  # Specify the desired Node.js versions
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Build
+      run: npm run build  # Replace with your build script if different
+
+    - name: Test
+      run: npm test  # Replace with your test script if different
