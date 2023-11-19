@@ -7,3 +7,4 @@ window.appConf = {
     ipInfoToken: '6efb7a808a4857',
     googleApiKey: 'AIzaSyBuEER1bRuOb4jvLGAJuj6JZjk7CuPeHew',
 }
+ 
